@@ -1,10 +1,12 @@
 .help-contact__placeholder {
-	height: 237px;
-	width: 100%;
-	.form-textarea {
+
+	.form-textarea,
+	.form-label,
+	.form-button {
 		@include placeholder();
 	}
-	.form-label {
-		@include placeholder();
+	.form-button {
+		text-indent: -9999px;
+		min-width: 100px;
 	}
 }

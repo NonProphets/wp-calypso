@@ -3,6 +3,7 @@
  */
 import React from 'react';
 import page from 'page';
+import noop from 'lodash/utility/noop';
 
 /**
  * Internal dependencies
@@ -262,9 +263,8 @@ module.exports = React.createClass( {
 		if ( ! ( olark.isOlarkReady && sitesInitialized ) ) {
 			return (
 				<div className="help-contact__placeholder">
-					<HelpContactForm disabled={true}
-						showSubjectField={ false }
-						onSubmit={ function() {} }
+					<HelpContactForm disabled={ true }
+						onSubmit={ noop }
 						buttonLabel={ this.translate( 'Contact us' ) }/>
 				</div>
 			);
