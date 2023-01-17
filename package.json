@@ -84,7 +84,7 @@
     "source-map": "0.1.39",
     "source-map-support": "0.3.2",
     "store": "1.3.16",
-    "superagent": "1.2.0",
+    "superagent": "2.0.0",
     "timeout-transition-group": "2.0.1",
     "tinymce": "4.2.8",
     "to-title-case": "0.1.5",
@@ -96,7 +96,7 @@
     "webpack-dev-middleware": "1.2.0",
     "wpcom-proxy-request": "1.0.5",
     "wpcom-unpublished": "1.0.8",
-    "wpcom-xhr-request": "0.3.3",
+    "wpcom-xhr-request": "1.0.0",
     "xgettext-js": "0.2.0"
   },
   "engines": {
