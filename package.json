@@ -11,7 +11,7 @@
   "dependencies": {
     "async": "0.9.0",
     "atob": "1.1.2",
-    "autoprefixer": "4.0.0",
+    "autoprefixer": "10.0.0",
     "autosize": "3.0.7",
     "babel": "5.8.12",
     "babel-core": "5.8.12",
@@ -78,7 +78,7 @@
     "redux": "3.0.4",
     "redux-analytics": "0.3.0",
     "redux-thunk": "1.0.0",
-    "rtlcss": "1.6.1",
+    "rtlcss": "3.0.0",
     "sanitize-html": "1.11.1",
     "shallowequal": "0.2.2",
     "source-map": "0.1.39",
